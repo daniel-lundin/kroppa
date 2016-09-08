@@ -1,0 +1,24 @@
+{
+  "name": "kroppa",
+  "version": "1.0.0",
+  "description": "jpeg image cropping using turbo-jpeg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jpeg",
+    "cropping",
+    "turbo-jpeg"
+  ],
+  "author": "d-dog",
+  "license": "MIT",
+  "dependencies": {
+    "jpeg-turbo": "^0.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb": "^11.0.0",
+    "eslint-plugin-import": "^1.14.0"
+  }
+}
