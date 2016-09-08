@@ -1,6 +1,6 @@
 {
   "name": "kroppa",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "jpeg image cropping using turbo-jpeg",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,13 @@
     "eslint": "^3.4.0",
     "eslint-config-airbnb": "^11.0.0",
     "eslint-plugin-import": "^1.14.0"
-  }
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "README.md",
+    "index.js",
+    "LICENSE.md"
+  ]
 }
