@@ -12,10 +12,30 @@ npm install kroppa
 
 ## Usage
 
+### Single crop
 ```
 const kroppa = require('kroppa');
 
-const croppedImageData = kropps.crop(imageBuffer, x, y, width, height);
+const cropParameters = {
+  x: 40,
+  y: 40,
+  width: 100,
+  height: 200
+};
+
+const croppedImageData = kroppa.crop(imageBuffer, cropParameters);
+```
+
+### Multiple crops at once
+```
+const kroppa = require('kroppa');
+
+const cropParameters = [
+  { x: 40, y: 40, width: 100, height: 200 },
+  { x: 80, y: 80, width: 200, height: 500 }
+];
+
+const croppedImageData = kroppa.crop(imageBuffer, cropParameters);
 ```
 
 ## LICENSE

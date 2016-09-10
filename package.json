@@ -28,5 +28,9 @@
     "README.md",
     "index.js",
     "LICENSE.md"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:daniel-lundin/kroppa.git"
+  }
 }
